@@ -1,0 +1,71 @@
+{
+  "behaviors": {
+    "ScriptBehavior": {
+      "scriptId": "3",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "PlayerBehavior": {
+      "scriptId": "11",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "teleportSpeedFactor",
+          "type": "number"
+        },
+        {
+          "name": "canMove",
+          "type": "boolean"
+        },
+        {
+          "name": "canJump",
+          "type": "boolean"
+        },
+        {
+          "name": "radius",
+          "type": "number"
+        },
+        {
+          "name": "height",
+          "type": "number"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "angles",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "direction",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "modelPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "initialShadowScale",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "shadowScale",
+          "type": "Sup.Math.Vector3"
+        }
+      ]
+    },
+    "Player2Behavior": {
+      "scriptId": "16",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}

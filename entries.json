@@ -1,0 +1,100 @@
+[
+  {
+    "id": "2",
+    "name": "Behaviors",
+    "type": null,
+    "children": [
+      {
+        "id": "3",
+        "name": "Script",
+        "type": "script"
+      },
+      {
+        "id": "11",
+        "name": "Player",
+        "type": "script"
+      },
+      {
+        "id": "16",
+        "name": "Player2",
+        "type": "script"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Scenes",
+    "type": null,
+    "children": [
+      {
+        "id": "0",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "8",
+        "name": "Cubic Model",
+        "type": "cubicModel"
+      },
+      {
+        "id": "9",
+        "name": "Player Cube",
+        "type": "cubicModel"
+      },
+      {
+        "id": "10",
+        "name": "Font",
+        "type": "font"
+      },
+      {
+        "id": "12",
+        "name": "Shader",
+        "type": "shader"
+      },
+      {
+        "id": "13",
+        "name": "Player model",
+        "type": "model"
+      },
+      {
+        "id": "17",
+        "name": "Shadow",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "sprites",
+    "type": null,
+    "children": [
+      {
+        "id": "6",
+        "name": "point",
+        "type": "sprite"
+      },
+      {
+        "id": "7",
+        "name": "bullet",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Characters",
+    "type": null,
+    "children": []
+  },
+  {
+    "id": "14",
+    "name": "Prefabs",
+    "type": null,
+    "children": []
+  },
+  {
+    "id": "1",
+    "name": "Game",
+    "type": "script"
+  }
+]
