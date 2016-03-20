@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "isBitmap": true,
   "filtering": "pixelated",
-  "pixelsPerUnit": 20,
+  "pixelsPerUnit": 32,
   "size": 32,
   "color": "ffffff",
   "gridWidth": 20,

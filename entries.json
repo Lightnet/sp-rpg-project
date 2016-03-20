@@ -133,6 +133,36 @@
             "type": "scene"
           },
           {
+            "id": "37",
+            "name": "messagepanel640x256",
+            "type": "sprite"
+          },
+          {
+            "id": "38",
+            "name": "panellist262x402",
+            "type": "sprite"
+          },
+          {
+            "id": "39",
+            "name": "dialog512x192",
+            "type": "sprite"
+          },
+          {
+            "id": "40",
+            "name": "button50x50",
+            "type": "sprite"
+          },
+          {
+            "id": "41",
+            "name": "button32x32",
+            "type": "sprite"
+          },
+          {
+            "id": "34",
+            "name": "UIScene_MainMenu",
+            "type": "scene"
+          },
+          {
             "id": "32",
             "name": "Touchsprite",
             "type": "script"
@@ -140,6 +170,21 @@
           {
             "id": "26",
             "name": "Button",
+            "type": "script"
+          },
+          {
+            "id": "35",
+            "name": "Button88x32",
+            "type": "sprite"
+          },
+          {
+            "id": "36",
+            "name": "button256x32",
+            "type": "sprite"
+          },
+          {
+            "id": "42",
+            "name": "HotKey",
             "type": "script"
           }
         ]

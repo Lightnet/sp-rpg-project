@@ -102,6 +102,12 @@
           "type": "any"
         }
       ]
+    },
+    "HotKeyBehavior": {
+      "scriptId": "42",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
     }
   }
 }
