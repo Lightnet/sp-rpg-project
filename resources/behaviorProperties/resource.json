@@ -66,6 +66,42 @@
       "line": 0,
       "parentBehavior": null,
       "properties": []
+    },
+    "ButtonBehavior": {
+      "scriptId": "26",
+      "line": 4,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "isHover",
+          "type": "boolean"
+        },
+        {
+          "name": "unhover",
+          "type": "string"
+        },
+        {
+          "name": "hover",
+          "type": "string"
+        }
+      ]
+    },
+    "TouchspriteBehavior": {
+      "scriptId": "32",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "Camera_testBehavior": {
+      "scriptId": "33",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "ry",
+          "type": "any"
+        }
+      ]
     }
   }
 }

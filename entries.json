@@ -22,44 +22,127 @@
     ]
   },
   {
-    "id": "4",
-    "name": "Scenes",
+    "id": "20",
+    "name": "shaders",
     "type": null,
     "children": [
       {
-        "id": "0",
-        "name": "Scene",
-        "type": "scene"
-      },
-      {
-        "id": "8",
-        "name": "Cubic Model",
-        "type": "cubicModel"
-      },
-      {
-        "id": "9",
-        "name": "Player Cube",
-        "type": "cubicModel"
-      },
+        "id": "12",
+        "name": "Shader",
+        "type": "shader"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Fonts",
+    "type": null,
+    "children": [
       {
         "id": "10",
         "name": "Font",
         "type": "font"
       },
       {
-        "id": "12",
-        "name": "Shader",
-        "type": "shader"
-      },
-      {
-        "id": "13",
-        "name": "Player model",
-        "type": "model"
-      },
-      {
-        "id": "17",
-        "name": "Shadow",
+        "id": "27",
+        "name": "fontimage",
         "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Scenes",
+    "type": null,
+    "children": [
+      {
+        "id": "18",
+        "name": "Test",
+        "type": null,
+        "children": [
+          {
+            "id": "0",
+            "name": "scene_test",
+            "type": "scene"
+          },
+          {
+            "id": "8",
+            "name": "Cubic Model",
+            "type": "cubicModel"
+          },
+          {
+            "id": "9",
+            "name": "Player Cube",
+            "type": "cubicModel"
+          }
+        ]
+      },
+      {
+        "id": "21",
+        "name": "world",
+        "type": null,
+        "children": [
+          {
+            "id": "22",
+            "name": "scene_world",
+            "type": "scene"
+          }
+        ]
+      },
+      {
+        "id": "23",
+        "name": "menu",
+        "type": null,
+        "children": [
+          {
+            "id": "24",
+            "name": "scene_menu_design",
+            "type": "scene"
+          },
+          {
+            "id": "33",
+            "name": "Camera_test",
+            "type": "script"
+          },
+          {
+            "id": "28",
+            "name": "LifeBar",
+            "type": "sprite"
+          },
+          {
+            "id": "29",
+            "name": "HealthBar",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "25",
+        "name": "props",
+        "type": null,
+        "children": []
+      },
+      {
+        "id": "30",
+        "name": "UI",
+        "type": null,
+        "children": [
+          {
+            "id": "31",
+            "name": "UIScene",
+            "type": "scene"
+          },
+          {
+            "id": "32",
+            "name": "Touchsprite",
+            "type": "script"
+          },
+          {
+            "id": "26",
+            "name": "Button",
+            "type": "script"
+          }
+        ]
       }
     ]
   },
@@ -77,6 +160,11 @@
         "id": "7",
         "name": "bullet",
         "type": "sprite"
+      },
+      {
+        "id": "17",
+        "name": "Shadow",
+        "type": "sprite"
       }
     ]
   },
@@ -84,7 +172,13 @@
     "id": "15",
     "name": "Characters",
     "type": null,
-    "children": []
+    "children": [
+      {
+        "id": "13",
+        "name": "Player model",
+        "type": "model"
+      }
+    ]
   },
   {
     "id": "14",
