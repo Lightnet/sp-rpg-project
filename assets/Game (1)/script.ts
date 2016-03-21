@@ -39,12 +39,12 @@ namespace Game {
         
         RPGee.on('itemtoggle',(toggle)=>{
             var inventoryactor:any;
-            Sup.log('itemtoggle:'+toggle);
+            //Sup.log('itemtoggle:'+toggle);
             if(typeof toggle == 'undefined'){
-                Sup.log('checking.. ');
+                //Sup.log('checking.. ');
                 inventoryactor = Sup.getActor('UI_Inventory');
                 inventoryactor
-                Sup.log('isVisible'+inventoryactor.getVisible());
+                //Sup.log('isVisible'+inventoryactor.getVisible());
                 if(inventoryactor.getVisible() == true){
                     inventoryactor.setVisible(false);
                 }else{
@@ -52,7 +52,7 @@ namespace Game {
                 }
                 inventoryactor =null;
             }else{
-                Sup.log('toggle'+toggle);
+                //Sup.log('toggle'+toggle);
                 inventoryactor = Sup.getActor('UI_Inventory');
                 if(toggle == 'false'){
                     inventoryactor.setVisible(false);    

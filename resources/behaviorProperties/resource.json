@@ -171,7 +171,7 @@
     },
     "GameKeyBoardBehavior": {
       "scriptId": "45",
-      "line": 2,
+      "line": 3,
       "parentBehavior": null,
       "properties": [
         {
@@ -181,6 +181,14 @@
         {
           "name": "steppress",
           "type": "number"
+        },
+        {
+          "name": "benable",
+          "type": "boolean"
+        },
+        {
+          "name": "bInputKeyInvent",
+          "type": "boolean"
         }
       ]
     }

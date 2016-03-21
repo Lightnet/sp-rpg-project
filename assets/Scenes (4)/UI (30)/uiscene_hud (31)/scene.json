@@ -1888,7 +1888,84 @@
             {
               "id": "16",
               "name": "MessagePanel01",
-              "children": [],
+              "children": [
+                {
+                  "id": "45",
+                  "name": "dialog_text",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "TextRenderer",
+                      "config": {
+                        "fontAssetId": "10",
+                        "text": "Dialog",
+                        "alignment": "center",
+                        "size": null,
+                        "color": null,
+                        "verticalAlignment": "center"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -0.0681016817688942,
+                    "y": 1.0989999771118164,
+                    "z": 0.2838486433029175
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 0.30000001192092896,
+                    "y": 0.30000001192092896,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 1,
+                  "prefab": null
+                },
+                {
+                  "id": "46",
+                  "name": "message_text",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "TextRenderer",
+                      "config": {
+                        "fontAssetId": "10",
+                        "text": "Message Text",
+                        "alignment": "center",
+                        "size": null,
+                        "color": null,
+                        "verticalAlignment": "center"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -0.0681016817688942,
+                    "y": 0.8050263524055481,
+                    "z": 0.2838486433029175
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 0.30000001192092896,
+                    "y": 0.30000001192092896,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 1,
+                  "prefab": null
+                }
+              ],
               "components": [
                 {
                   "type": "SpriteRenderer",
@@ -1910,7 +1987,7 @@
               ],
               "position": {
                 "x": 0,
-                "y": -2.3350000381469727,
+                "y": -2.366920232772827,
                 "z": -3
               },
               "orientation": {
@@ -1924,14 +2001,91 @@
                 "y": 2,
                 "z": 1
               },
-              "visible": false,
+              "visible": true,
               "layer": 1,
               "prefab": null
             },
             {
               "id": "17",
               "name": "Dialogbox",
-              "children": [],
+              "children": [
+                {
+                  "id": "47",
+                  "name": "dialog_text",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "TextRenderer",
+                      "config": {
+                        "fontAssetId": "10",
+                        "text": "Dialog",
+                        "alignment": "center",
+                        "size": null,
+                        "color": null,
+                        "verticalAlignment": "center"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -0.06800000369548798,
+                    "y": 0.7675241827964783,
+                    "z": 0.20000004768371582
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 0.30000001192092896,
+                    "y": 0.30000001192092896,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 1,
+                  "prefab": null
+                },
+                {
+                  "id": "48",
+                  "name": "message_text",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "TextRenderer",
+                      "config": {
+                        "fontAssetId": "10",
+                        "text": "Message Text",
+                        "alignment": "center",
+                        "size": null,
+                        "color": null,
+                        "verticalAlignment": "center"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -0.06800000369548798,
+                    "y": 0.5570548176765442,
+                    "z": 0.20000004768371582
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 0.30000001192092896,
+                    "y": 0.30000001192092896,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 1,
+                  "prefab": null
+                }
+              ],
               "components": [
                 {
                   "type": "SpriteRenderer",
@@ -1954,7 +2108,7 @@
               "position": {
                 "x": 0,
                 "y": 0,
-                "z": -2
+                "z": -0.824915885925293
               },
               "orientation": {
                 "x": 0,
