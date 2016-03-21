@@ -92,17 +92,17 @@
   },
   {
     "id": "4",
-    "name": "Scenes",
+    "name": "scenes",
     "type": null,
     "children": [
       {
         "id": "18",
-        "name": "Test",
+        "name": "prototype",
         "type": null,
         "children": [
           {
             "id": "0",
-            "name": "scene_test",
+            "name": "scene_prototype",
             "type": "scene"
           },
           {
@@ -136,7 +136,7 @@
         "children": [
           {
             "id": "24",
-            "name": "scene_menu_design",
+            "name": "uiscene_menu",
             "type": "scene"
           },
           {
@@ -153,12 +153,12 @@
       },
       {
         "id": "30",
-        "name": "UI",
+        "name": "ui",
         "type": null,
         "children": [
           {
             "id": "31",
-            "name": "UIScene",
+            "name": "uiscene_hud",
             "type": "scene"
           },
           {
@@ -188,7 +188,7 @@
           },
           {
             "id": "34",
-            "name": "UIScene_MainMenu",
+            "name": "uiscene_mainmenu",
             "type": "scene"
           },
           {

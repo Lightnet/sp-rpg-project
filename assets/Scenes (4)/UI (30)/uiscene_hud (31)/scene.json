@@ -18,7 +18,7 @@
                   "type": "TextRenderer",
                   "config": {
                     "fontAssetId": "10",
-                    "text": "RPG Farm",
+                    "text": "RPG HUD",
                     "alignment": "center",
                     "size": null,
                     "color": null,
@@ -52,6 +52,44 @@
               "name": "UI_Inventory",
               "children": [
                 {
+                  "id": "34",
+                  "name": "Text",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "TextRenderer",
+                      "config": {
+                        "fontAssetId": "10",
+                        "text": "Inventory",
+                        "alignment": "center",
+                        "size": null,
+                        "color": null,
+                        "verticalAlignment": "center"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 1.8169095516204834,
+                    "z": 0.3446493446826935
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 0.30000001192092896,
+                    "y": 0.30000001192092896,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 1,
+                  "prefab": null
+                },
+                {
                   "id": "18",
                   "name": "Item_up",
                   "children": [],
@@ -72,6 +110,31 @@
                         "shaderAssetId": null
                       },
                       "id": "0"
+                    },
+                    {
+                      "type": "Behavior",
+                      "config": {
+                        "behaviorName": "ButtonBehavior",
+                        "propertyValues": {
+                          "ActorPanel": {
+                            "type": "string",
+                            "value": "UI_Inventory"
+                          },
+                          "EventName": {
+                            "type": "string",
+                            "value": "itemscroll"
+                          },
+                          "isVariable": {
+                            "type": "boolean",
+                            "value": true
+                          },
+                          "value": {
+                            "type": "string",
+                            "value": "1"
+                          }
+                        }
+                      },
+                      "id": "1"
                     }
                   ],
                   "position": {
@@ -170,7 +233,7 @@
                               },
                               "EventName": {
                                 "type": "string",
-                                "value": "itemslect"
+                                "value": "itemselect"
                               },
                               "isVariable": {
                                 "type": "boolean",
@@ -208,7 +271,46 @@
                     {
                       "id": "21",
                       "name": "Itemslot_1",
-                      "children": [],
+                      "children": [
+                        {
+                          "id": "36",
+                          "name": "Text",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "TextRenderer",
+                              "config": {
+                                "fontAssetId": "10",
+                                "text": "Item 0",
+                                "alignment": "center",
+                                "size": null,
+                                "color": null,
+                                "verticalAlignment": "center"
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0.056
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 0.30000001192092896,
+                            "y": 0.30000001192092896,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 1,
+                          "prefab": null
+                        }
+                      ],
                       "components": [
                         {
                           "type": "SpriteRenderer",
@@ -276,7 +378,46 @@
                     {
                       "id": "22",
                       "name": "Itemslot_2",
-                      "children": [],
+                      "children": [
+                        {
+                          "id": "37",
+                          "name": "Text",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "TextRenderer",
+                              "config": {
+                                "fontAssetId": "10",
+                                "text": "Item 0",
+                                "alignment": "center",
+                                "size": null,
+                                "color": null,
+                                "verticalAlignment": "center"
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0.056
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 0.30000001192092896,
+                            "y": 0.30000001192092896,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 1,
+                          "prefab": null
+                        }
+                      ],
                       "components": [
                         {
                           "type": "SpriteRenderer",
@@ -294,6 +435,31 @@
                             "shaderAssetId": null
                           },
                           "id": "0"
+                        },
+                        {
+                          "type": "Behavior",
+                          "config": {
+                            "behaviorName": "ButtonBehavior",
+                            "propertyValues": {
+                              "ActorPanel": {
+                                "type": "string",
+                                "value": "UI_Inventory"
+                              },
+                              "EventName": {
+                                "type": "string",
+                                "value": "itemselect"
+                              },
+                              "isVariable": {
+                                "type": "boolean",
+                                "value": true
+                              },
+                              "value": {
+                                "type": "string",
+                                "value": "2"
+                              }
+                            }
+                          },
+                          "id": "1"
                         }
                       ],
                       "position": {
@@ -319,7 +485,46 @@
                     {
                       "id": "23",
                       "name": "Itemslot_3",
-                      "children": [],
+                      "children": [
+                        {
+                          "id": "38",
+                          "name": "Text",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "TextRenderer",
+                              "config": {
+                                "fontAssetId": "10",
+                                "text": "Item 0",
+                                "alignment": "center",
+                                "size": null,
+                                "color": null,
+                                "verticalAlignment": "center"
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0.056
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 0.30000001192092896,
+                            "y": 0.30000001192092896,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 1,
+                          "prefab": null
+                        }
+                      ],
                       "components": [
                         {
                           "type": "SpriteRenderer",
@@ -337,6 +542,31 @@
                             "shaderAssetId": null
                           },
                           "id": "0"
+                        },
+                        {
+                          "type": "Behavior",
+                          "config": {
+                            "behaviorName": "ButtonBehavior",
+                            "propertyValues": {
+                              "ActorPanel": {
+                                "type": "string",
+                                "value": "UI_Inventory"
+                              },
+                              "EventName": {
+                                "type": "string",
+                                "value": "itemselect"
+                              },
+                              "isVariable": {
+                                "type": "boolean",
+                                "value": true
+                              },
+                              "value": {
+                                "type": "string",
+                                "value": "3"
+                              }
+                            }
+                          },
+                          "id": "1"
                         }
                       ],
                       "position": {
@@ -362,7 +592,46 @@
                     {
                       "id": "24",
                       "name": "Itemslot_4",
-                      "children": [],
+                      "children": [
+                        {
+                          "id": "39",
+                          "name": "Text",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "TextRenderer",
+                              "config": {
+                                "fontAssetId": "10",
+                                "text": "Item 0",
+                                "alignment": "center",
+                                "size": null,
+                                "color": null,
+                                "verticalAlignment": "center"
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0.056
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 0.30000001192092896,
+                            "y": 0.30000001192092896,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 1,
+                          "prefab": null
+                        }
+                      ],
                       "components": [
                         {
                           "type": "SpriteRenderer",
@@ -380,6 +649,31 @@
                             "shaderAssetId": null
                           },
                           "id": "0"
+                        },
+                        {
+                          "type": "Behavior",
+                          "config": {
+                            "behaviorName": "ButtonBehavior",
+                            "propertyValues": {
+                              "ActorPanel": {
+                                "type": "string",
+                                "value": "UI_Inventory"
+                              },
+                              "EventName": {
+                                "type": "string",
+                                "value": "itemselect"
+                              },
+                              "isVariable": {
+                                "type": "boolean",
+                                "value": true
+                              },
+                              "value": {
+                                "type": "string",
+                                "value": "4"
+                              }
+                            }
+                          },
+                          "id": "1"
                         }
                       ],
                       "position": {
@@ -405,7 +699,46 @@
                     {
                       "id": "25",
                       "name": "Itemslot_5",
-                      "children": [],
+                      "children": [
+                        {
+                          "id": "40",
+                          "name": "Text",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "TextRenderer",
+                              "config": {
+                                "fontAssetId": "10",
+                                "text": "Item 0",
+                                "alignment": "center",
+                                "size": null,
+                                "color": null,
+                                "verticalAlignment": "center"
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0.056
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 0.30000001192092896,
+                            "y": 0.30000001192092896,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 1,
+                          "prefab": null
+                        }
+                      ],
                       "components": [
                         {
                           "type": "SpriteRenderer",
@@ -423,6 +756,31 @@
                             "shaderAssetId": null
                           },
                           "id": "0"
+                        },
+                        {
+                          "type": "Behavior",
+                          "config": {
+                            "behaviorName": "ButtonBehavior",
+                            "propertyValues": {
+                              "ActorPanel": {
+                                "type": "string",
+                                "value": "UI_Inventory"
+                              },
+                              "EventName": {
+                                "type": "string",
+                                "value": "itemselect"
+                              },
+                              "isVariable": {
+                                "type": "boolean",
+                                "value": true
+                              },
+                              "value": {
+                                "type": "string",
+                                "value": "5"
+                              }
+                            }
+                          },
+                          "id": "1"
                         }
                       ],
                       "position": {
@@ -448,7 +806,46 @@
                     {
                       "id": "26",
                       "name": "Itemslot_6",
-                      "children": [],
+                      "children": [
+                        {
+                          "id": "41",
+                          "name": "Text",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "TextRenderer",
+                              "config": {
+                                "fontAssetId": "10",
+                                "text": "Item 0",
+                                "alignment": "center",
+                                "size": null,
+                                "color": null,
+                                "verticalAlignment": "center"
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0.056
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 0.30000001192092896,
+                            "y": 0.30000001192092896,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 1,
+                          "prefab": null
+                        }
+                      ],
                       "components": [
                         {
                           "type": "SpriteRenderer",
@@ -466,6 +863,31 @@
                             "shaderAssetId": null
                           },
                           "id": "0"
+                        },
+                        {
+                          "type": "Behavior",
+                          "config": {
+                            "behaviorName": "ButtonBehavior",
+                            "propertyValues": {
+                              "ActorPanel": {
+                                "type": "string",
+                                "value": "UI_Inventory"
+                              },
+                              "EventName": {
+                                "type": "string",
+                                "value": "itemselect"
+                              },
+                              "isVariable": {
+                                "type": "boolean",
+                                "value": true
+                              },
+                              "value": {
+                                "type": "string",
+                                "value": "6"
+                              }
+                            }
+                          },
+                          "id": "1"
                         }
                       ],
                       "position": {
@@ -491,7 +913,46 @@
                     {
                       "id": "27",
                       "name": "Itemslot_7",
-                      "children": [],
+                      "children": [
+                        {
+                          "id": "42",
+                          "name": "Text",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "TextRenderer",
+                              "config": {
+                                "fontAssetId": "10",
+                                "text": "Item 0",
+                                "alignment": "center",
+                                "size": null,
+                                "color": null,
+                                "verticalAlignment": "center"
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0.056
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 0.30000001192092896,
+                            "y": 0.30000001192092896,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 1,
+                          "prefab": null
+                        }
+                      ],
                       "components": [
                         {
                           "type": "SpriteRenderer",
@@ -509,6 +970,31 @@
                             "shaderAssetId": null
                           },
                           "id": "0"
+                        },
+                        {
+                          "type": "Behavior",
+                          "config": {
+                            "behaviorName": "ButtonBehavior",
+                            "propertyValues": {
+                              "ActorPanel": {
+                                "type": "string",
+                                "value": "UI_Inventory"
+                              },
+                              "EventName": {
+                                "type": "string",
+                                "value": "itemselect"
+                              },
+                              "isVariable": {
+                                "type": "boolean",
+                                "value": true
+                              },
+                              "value": {
+                                "type": "string",
+                                "value": "7"
+                              }
+                            }
+                          },
+                          "id": "1"
                         }
                       ],
                       "position": {
@@ -534,7 +1020,46 @@
                     {
                       "id": "28",
                       "name": "Itemslot_8",
-                      "children": [],
+                      "children": [
+                        {
+                          "id": "43",
+                          "name": "Text",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "TextRenderer",
+                              "config": {
+                                "fontAssetId": "10",
+                                "text": "Item 0",
+                                "alignment": "center",
+                                "size": null,
+                                "color": null,
+                                "verticalAlignment": "center"
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0.056
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 0.30000001192092896,
+                            "y": 0.30000001192092896,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 1,
+                          "prefab": null
+                        }
+                      ],
                       "components": [
                         {
                           "type": "SpriteRenderer",
@@ -552,6 +1077,31 @@
                             "shaderAssetId": null
                           },
                           "id": "0"
+                        },
+                        {
+                          "type": "Behavior",
+                          "config": {
+                            "behaviorName": "ButtonBehavior",
+                            "propertyValues": {
+                              "ActorPanel": {
+                                "type": "string",
+                                "value": "UI_Inventory"
+                              },
+                              "EventName": {
+                                "type": "string",
+                                "value": "itemselect"
+                              },
+                              "isVariable": {
+                                "type": "boolean",
+                                "value": true
+                              },
+                              "value": {
+                                "type": "string",
+                                "value": "8"
+                              }
+                            }
+                          },
+                          "id": "1"
                         }
                       ],
                       "position": {
@@ -577,7 +1127,46 @@
                     {
                       "id": "29",
                       "name": "Itemslot_9",
-                      "children": [],
+                      "children": [
+                        {
+                          "id": "44",
+                          "name": "Text",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "TextRenderer",
+                              "config": {
+                                "fontAssetId": "10",
+                                "text": "Item 0",
+                                "alignment": "center",
+                                "size": null,
+                                "color": null,
+                                "verticalAlignment": "center"
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0.056
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 0.30000001192092896,
+                            "y": 0.30000001192092896,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 1,
+                          "prefab": null
+                        }
+                      ],
                       "components": [
                         {
                           "type": "SpriteRenderer",
@@ -595,6 +1184,31 @@
                             "shaderAssetId": null
                           },
                           "id": "0"
+                        },
+                        {
+                          "type": "Behavior",
+                          "config": {
+                            "behaviorName": "ButtonBehavior",
+                            "propertyValues": {
+                              "ActorPanel": {
+                                "type": "string",
+                                "value": "UI_Inventory"
+                              },
+                              "EventName": {
+                                "type": "string",
+                                "value": "itemselect"
+                              },
+                              "isVariable": {
+                                "type": "boolean",
+                                "value": true
+                              },
+                              "value": {
+                                "type": "string",
+                                "value": "9"
+                              }
+                            }
+                          },
+                          "id": "1"
                         }
                       ],
                       "position": {
@@ -660,6 +1274,31 @@
                         "shaderAssetId": null
                       },
                       "id": "0"
+                    },
+                    {
+                      "type": "Behavior",
+                      "config": {
+                        "behaviorName": "ButtonBehavior",
+                        "propertyValues": {
+                          "ActorPanel": {
+                            "type": "string",
+                            "value": "UI_Inventory"
+                          },
+                          "EventName": {
+                            "type": "string",
+                            "value": "itemscroll"
+                          },
+                          "isVariable": {
+                            "type": "boolean",
+                            "value": true
+                          },
+                          "value": {
+                            "type": "string",
+                            "value": "-1"
+                          }
+                        }
+                      },
+                      "id": "1"
                     }
                   ],
                   "position": {
@@ -703,6 +1342,31 @@
                         "shaderAssetId": null
                       },
                       "id": "0"
+                    },
+                    {
+                      "type": "Behavior",
+                      "config": {
+                        "behaviorName": "ButtonBehavior",
+                        "propertyValues": {
+                          "ActorPanel": {
+                            "type": "string",
+                            "value": "UI_Inventory"
+                          },
+                          "EventName": {
+                            "type": "string",
+                            "value": "itemtoggle"
+                          },
+                          "isVariable": {
+                            "type": "boolean",
+                            "value": true
+                          },
+                          "value": {
+                            "type": "string",
+                            "value": "false"
+                          }
+                        }
+                      },
+                      "id": "1"
                     }
                   ],
                   "position": {
@@ -719,44 +1383,6 @@
                   "scale": {
                     "x": 1,
                     "y": 1,
-                    "z": 1
-                  },
-                  "visible": true,
-                  "layer": 1,
-                  "prefab": null
-                },
-                {
-                  "id": "34",
-                  "name": "Text",
-                  "children": [],
-                  "components": [
-                    {
-                      "type": "TextRenderer",
-                      "config": {
-                        "fontAssetId": "10",
-                        "text": "Inventory",
-                        "alignment": "center",
-                        "size": null,
-                        "color": null,
-                        "verticalAlignment": "center"
-                      },
-                      "id": "0"
-                    }
-                  ],
-                  "position": {
-                    "x": 0,
-                    "y": 1.8169095516204834,
-                    "z": 0.3446493446826935
-                  },
-                  "orientation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "w": 1
-                  },
-                  "scale": {
-                    "x": 0.3,
-                    "y": 0.3,
                     "z": 1
                   },
                   "visible": true,
@@ -799,7 +1425,7 @@
                 "y": 2,
                 "z": 1
               },
-              "visible": true,
+              "visible": false,
               "layer": 1,
               "prefab": null
             },
