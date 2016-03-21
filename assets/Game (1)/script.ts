@@ -41,4 +41,8 @@ world.addContactMaterial(new CANNON.ContactMaterial(playerMaterial, world.defaul
 }));
 
 
-Sup.log("test");
+//Sup.log("test");
+
+//RPGee.on('event',()=>{
+  //Sup.log('event test!game');
+//});

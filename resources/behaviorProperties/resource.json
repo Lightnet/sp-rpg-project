@@ -108,6 +108,21 @@
       "line": 0,
       "parentBehavior": null,
       "properties": []
+    },
+    "TriggerBehavior": {
+      "scriptId": "43",
+      "line": 4,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "Once_used",
+          "type": "boolean"
+        },
+        {
+          "name": "IsEnable",
+          "type": "boolean"
+        }
+      ]
     }
   }
 }

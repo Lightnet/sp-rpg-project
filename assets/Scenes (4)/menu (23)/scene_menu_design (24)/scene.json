@@ -2,18 +2,73 @@
   "formatVersion": 1,
   "nodes": [
     {
-      "id": "0",
-      "name": "Camera",
+      "id": "5",
+      "name": "root",
       "children": [
         {
-          "id": "4",
-          "name": "Prefab_UI",
-          "children": [],
-          "components": [],
+          "id": "0",
+          "name": "Camera",
+          "children": [
+            {
+              "id": "4",
+              "name": "Prefab_UI",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": false,
+              "layer": 1,
+              "prefab": {
+                "sceneAssetId": "31"
+              }
+            }
+          ],
+          "components": [
+            {
+              "type": "Camera",
+              "config": {
+                "mode": "perspective",
+                "fov": 45,
+                "orthographicScale": 10,
+                "viewport": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1,
+                  "height": 1
+                },
+                "depth": 0,
+                "nearClippingPlane": 0.1,
+                "farClippingPlane": 1000
+              },
+              "id": "0"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "Camera_testBehavior",
+                "propertyValues": {}
+              },
+              "id": "1"
+            }
+          ],
           "position": {
-            "x": 0,
-            "y": 0,
-            "z": -0.029734360054135323
+            "x": 11.392572402954102,
+            "y": -1.0463576316833496,
+            "z": 18.74653196334839
           },
           "orientation": {
             "x": 0,
@@ -28,76 +83,56 @@
           },
           "visible": true,
           "layer": 0,
-          "prefab": {
-            "sceneAssetId": "31"
-          }
+          "prefab": null
+        },
+        {
+          "id": "1",
+          "name": "Cube",
+          "children": [],
+          "components": [
+            {
+              "type": "CubicModelRenderer",
+              "config": {
+                "cubicModelAssetId": "8"
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 11.392572402954102,
+            "y": -6.189648628234863,
+            "z": -4.586316108703613
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
         }
       ],
       "components": [
-        {
-          "type": "Camera",
-          "config": {
-            "mode": "perspective",
-            "fov": 45,
-            "orthographicScale": 10,
-            "viewport": {
-              "x": 0,
-              "y": 0,
-              "width": 1,
-              "height": 1
-            },
-            "depth": 0,
-            "nearClippingPlane": 0.1,
-            "farClippingPlane": 1000
-          },
-          "id": "0"
-        },
         {
           "type": "Behavior",
           "config": {
-            "behaviorName": "Camera_testBehavior",
+            "behaviorName": "ScriptBehavior",
             "propertyValues": {}
-          },
-          "id": "1"
-        }
-      ],
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0.029734360054135323
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": true,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "1",
-      "name": "Cube",
-      "children": [],
-      "components": [
-        {
-          "type": "CubicModelRenderer",
-          "config": {
-            "cubicModelAssetId": "8"
           },
           "id": "0"
         }
       ],
       "position": {
-        "x": 0,
-        "y": 0,
-        "z": -1.757595419883728
+        "x": -11.392572706292519,
+        "y": 6.189648394626947,
+        "z": 0.46981860261974095
       },
       "orientation": {
         "x": 0,

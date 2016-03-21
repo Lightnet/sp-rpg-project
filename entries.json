@@ -1,5 +1,10 @@
 [
   {
+    "id": "44",
+    "name": "RPGEventEmitter",
+    "type": "script"
+  },
+  {
     "id": "2",
     "name": "Behaviors",
     "type": null,
@@ -17,6 +22,31 @@
       {
         "id": "16",
         "name": "Player2",
+        "type": "script"
+      },
+      {
+        "id": "26",
+        "name": "Button",
+        "type": "script"
+      },
+      {
+        "id": "32",
+        "name": "Touchsprite",
+        "type": "script"
+      },
+      {
+        "id": "42",
+        "name": "HotKey",
+        "type": "script"
+      },
+      {
+        "id": "33",
+        "name": "Camera_test",
+        "type": "script"
+      },
+      {
+        "id": "43",
+        "name": "Trigger",
         "type": "script"
       }
     ]
@@ -100,11 +130,6 @@
             "type": "scene"
           },
           {
-            "id": "33",
-            "name": "Camera_test",
-            "type": "script"
-          },
-          {
             "id": "28",
             "name": "LifeBar",
             "type": "sprite"
@@ -163,16 +188,6 @@
             "type": "scene"
           },
           {
-            "id": "32",
-            "name": "Touchsprite",
-            "type": "script"
-          },
-          {
-            "id": "26",
-            "name": "Button",
-            "type": "script"
-          },
-          {
             "id": "35",
             "name": "Button88x32",
             "type": "sprite"
@@ -181,11 +196,6 @@
             "id": "36",
             "name": "button256x32",
             "type": "sprite"
-          },
-          {
-            "id": "42",
-            "name": "HotKey",
-            "type": "script"
           }
         ]
       }

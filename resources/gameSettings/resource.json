@@ -1,8 +1,10 @@
 {
   "formatVersion": 1,
-  "startupSceneId": "31",
+  "startupSceneId": "24",
   "framesPerSecond": 60,
   "ratioNumerator": null,
   "ratioDenominator": null,
-  "customLayers": []
+  "customLayers": [
+    "UI"
+  ]
 }
