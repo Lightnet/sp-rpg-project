@@ -25,7 +25,7 @@ class Camera_testBehavior extends Sup.Behavior {
       //}
       
     }
-    this.actor.rotateLocal(new Sup.Math.Quaternion(0, -0.01, 0));
+    //this.actor.rotateLocal(new Sup.Math.Quaternion(0, -0.01, 0));
   }
 }
 Sup.registerBehavior(Camera_testBehavior);

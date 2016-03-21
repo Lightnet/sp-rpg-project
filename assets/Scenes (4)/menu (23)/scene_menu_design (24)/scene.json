@@ -30,7 +30,7 @@
                 "y": 1,
                 "z": 1
               },
-              "visible": false,
+              "visible": true,
               "layer": 1,
               "prefab": {
                 "sceneAssetId": "31"
@@ -127,6 +127,14 @@
             "propertyValues": {}
           },
           "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "GameKeyBoardBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
         }
       ],
       "position": {

@@ -101,7 +101,46 @@
                     {
                       "id": "19",
                       "name": "Itemslot_0",
-                      "children": [],
+                      "children": [
+                        {
+                          "id": "35",
+                          "name": "Text",
+                          "children": [],
+                          "components": [
+                            {
+                              "type": "TextRenderer",
+                              "config": {
+                                "fontAssetId": "10",
+                                "text": "Item 0",
+                                "alignment": "center",
+                                "size": null,
+                                "color": null,
+                                "verticalAlignment": "center"
+                              },
+                              "id": "0"
+                            }
+                          ],
+                          "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0.05630631372332573
+                          },
+                          "orientation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 1
+                          },
+                          "scale": {
+                            "x": 0.3,
+                            "y": 0.3,
+                            "z": 1
+                          },
+                          "visible": true,
+                          "layer": 1,
+                          "prefab": null
+                        }
+                      ],
                       "components": [
                         {
                           "type": "SpriteRenderer",
@@ -119,6 +158,31 @@
                             "shaderAssetId": null
                           },
                           "id": "0"
+                        },
+                        {
+                          "type": "Behavior",
+                          "config": {
+                            "behaviorName": "ButtonBehavior",
+                            "propertyValues": {
+                              "ActorPanel": {
+                                "type": "string",
+                                "value": "UI_Inventory"
+                              },
+                              "EventName": {
+                                "type": "string",
+                                "value": "itemslect"
+                              },
+                              "isVariable": {
+                                "type": "boolean",
+                                "value": true
+                              },
+                              "value": {
+                                "type": "string",
+                                "value": "0"
+                              }
+                            }
+                          },
+                          "id": "1"
                         }
                       ],
                       "position": {
@@ -162,6 +226,31 @@
                             "shaderAssetId": null
                           },
                           "id": "0"
+                        },
+                        {
+                          "type": "Behavior",
+                          "config": {
+                            "behaviorName": "ButtonBehavior",
+                            "propertyValues": {
+                              "ActorPanel": {
+                                "type": "string",
+                                "value": "UI_Inventory"
+                              },
+                              "EventName": {
+                                "type": "string",
+                                "value": "itemselect"
+                              },
+                              "isVariable": {
+                                "type": "boolean",
+                                "value": true
+                              },
+                              "value": {
+                                "type": "string",
+                                "value": "1"
+                              }
+                            }
+                          },
+                          "id": "1"
                         }
                       ],
                       "position": {
@@ -630,6 +719,44 @@
                   "scale": {
                     "x": 1,
                     "y": 1,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 1,
+                  "prefab": null
+                },
+                {
+                  "id": "34",
+                  "name": "Text",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "TextRenderer",
+                      "config": {
+                        "fontAssetId": "10",
+                        "text": "Inventory",
+                        "alignment": "center",
+                        "size": null,
+                        "color": null,
+                        "verticalAlignment": "center"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 1.8169095516204834,
+                    "z": 0.3446493446826935
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 0.3,
+                    "y": 0.3,
                     "z": 1
                   },
                   "visible": true,

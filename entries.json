@@ -48,6 +48,11 @@
         "id": "43",
         "name": "Trigger",
         "type": "script"
+      },
+      {
+        "id": "45",
+        "name": "GameKeyBoard",
+        "type": "script"
       }
     ]
   },
@@ -71,6 +76,11 @@
       {
         "id": "10",
         "name": "Font",
+        "type": "font"
+      },
+      {
+        "id": "46",
+        "name": "Font2",
         "type": "font"
       },
       {
@@ -142,12 +152,6 @@
         ]
       },
       {
-        "id": "25",
-        "name": "props",
-        "type": null,
-        "children": []
-      },
-      {
         "id": "30",
         "name": "UI",
         "type": null,
@@ -200,6 +204,12 @@
         ]
       }
     ]
+  },
+  {
+    "id": "25",
+    "name": "props",
+    "type": null,
+    "children": []
   },
   {
     "id": "5",

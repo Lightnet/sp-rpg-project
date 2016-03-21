@@ -73,6 +73,22 @@
       "parentBehavior": null,
       "properties": [
         {
+          "name": "ActorPanel",
+          "type": "string"
+        },
+        {
+          "name": "EventName",
+          "type": "string"
+        },
+        {
+          "name": "isVariable",
+          "type": "boolean"
+        },
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
           "name": "isHover",
           "type": "boolean"
         },
@@ -105,9 +121,38 @@
     },
     "HotKeyBehavior": {
       "scriptId": "42",
-      "line": 0,
+      "line": 2,
       "parentBehavior": null,
-      "properties": []
+      "properties": [
+        {
+          "name": "ActorPanel",
+          "type": "string"
+        },
+        {
+          "name": "EventName",
+          "type": "string"
+        },
+        {
+          "name": "isVariable",
+          "type": "boolean"
+        },
+        {
+          "name": "value",
+          "type": "string"
+        },
+        {
+          "name": "isHover",
+          "type": "boolean"
+        },
+        {
+          "name": "unhover",
+          "type": "string"
+        },
+        {
+          "name": "hover",
+          "type": "string"
+        }
+      ]
     },
     "TriggerBehavior": {
       "scriptId": "43",
@@ -121,6 +166,21 @@
         {
           "name": "IsEnable",
           "type": "boolean"
+        }
+      ]
+    },
+    "GameKeyBoardBehavior": {
+      "scriptId": "45",
+      "line": 2,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "keyInventory",
+          "type": "string"
+        },
+        {
+          "name": "steppress",
+          "type": "number"
         }
       ]
     }
