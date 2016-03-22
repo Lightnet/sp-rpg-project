@@ -65,6 +65,21 @@
         "id": "12",
         "name": "Shader",
         "type": "shader"
+      },
+      {
+        "id": "48",
+        "name": "Color_red",
+        "type": "shader"
+      },
+      {
+        "id": "49",
+        "name": "Color_green",
+        "type": "shader"
+      },
+      {
+        "id": "50",
+        "name": "Color_blue",
+        "type": "shader"
       }
     ]
   },
@@ -241,6 +256,11 @@
       {
         "id": "13",
         "name": "Player model",
+        "type": "model"
+      },
+      {
+        "id": "47",
+        "name": "block character",
         "type": "model"
       }
     ]
