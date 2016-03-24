@@ -124,11 +124,6 @@
             "id": "8",
             "name": "Cubic Model",
             "type": "cubicModel"
-          },
-          {
-            "id": "9",
-            "name": "Player Cube",
-            "type": "cubicModel"
           }
         ]
       },
@@ -254,12 +249,7 @@
     "type": null,
     "children": [
       {
-        "id": "13",
-        "name": "Player model",
-        "type": "model"
-      },
-      {
-        "id": "47",
+        "id": "51",
         "name": "block character",
         "type": "model"
       }

@@ -31,8 +31,8 @@
           ],
           "position": {
             "x": -3.5344696044921875,
-            "y": 36.308162689208984,
-            "z": 28.172819137573242
+            "y": 9.77547836303711,
+            "z": 18.44716453552246
           },
           "orientation": {
             "x": -0.38268342717215614,
@@ -77,9 +77,9 @@
                 }
               ],
               "position": {
-                "x": 2.73345530189083e-31,
-                "y": 1.2310388279029448e-15,
-                "z": -5.5441060066223145
+                "x": -8.881784197001252e-16,
+                "y": 8.881784197001252e-16,
+                "z": -1.2423205375671396
               },
               "orientation": {
                 "x": -0.7071067811865475,
@@ -88,9 +88,9 @@
                 "w": 0.7071067811865476
               },
               "scale": {
-                "x": 4,
-                "y": 4,
-                "z": 4
+                "x": 1,
+                "y": 1,
+                "z": 1
               },
               "visible": true,
               "layer": 0,
@@ -104,23 +104,23 @@
                 {
                   "type": "ModelRenderer",
                   "config": {
-                    "modelAssetId": "13",
-                    "animationId": "0",
+                    "modelAssetId": "51",
+                    "animationId": null,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "color": "ffffff",
+                    "color": "ff0000",
                     "overrideOpacity": false,
                     "opacity": null,
                     "materialType": "basic",
-                    "shaderAssetId": null
+                    "shaderAssetId": "49"
                   },
-                  "id": "0"
+                  "id": "1"
                 }
               ],
               "position": {
-                "x": 0,
-                "y": -5.348109383635305e-16,
-                "z": 2.408574342727661
+                "x": -8.881784197001252e-16,
+                "y": 4.440892098500626e-16,
+                "z": 0.9814984798431388
               },
               "orientation": {
                 "x": -0.7071067811865475,
@@ -129,9 +129,9 @@
                 "w": 0.7071067811865476
               },
               "scale": {
-                "x": 0.4,
-                "y": 0.4,
-                "z": 0.4
+                "x": 1,
+                "y": 1,
+                "z": 1
               },
               "visible": true,
               "layer": 0,
@@ -161,9 +161,9 @@
                 }
               ],
               "position": {
-                "x": -1.2162568508763169e-31,
-                "y": -5.477533900393394e-16,
-                "z": 2.4668619632720947
+                "x": 0,
+                "y": 0,
+                "z": 1
               },
               "orientation": {
                 "x": 0,
@@ -198,8 +198,8 @@
                   "y": 0.5,
                   "z": 0.5
                 },
-                "radius": 2,
-                "height": 5
+                "radius": 0.5,
+                "height": 2
               },
               "id": "2"
             },
@@ -224,20 +224,20 @@
                       "z": -2.409
                     }
                   },
-                  "radius": {
-                    "type": "number",
-                    "value": 2
-                  },
-                  "height": {
-                    "type": "number",
-                    "value": 5
-                  },
                   "shadowScale": {
                     "type": "Sup.Math.Vector3",
                     "value": {
                       "x": 2,
                       "y": 2,
                       "z": 2
+                    }
+                  },
+                  "shadowoffset": {
+                    "type": "Sup.Math.Vector3",
+                    "value": {
+                      "x": 0,
+                      "y": -3,
+                      "z": null
                     }
                   }
                 }
@@ -247,7 +247,7 @@
           ],
           "position": {
             "x": -3.5344696044921875,
-            "y": 4.199932098388672,
+            "y": -1.382260799407959,
             "z": -1.4240211248397827
           },
           "orientation": {
@@ -305,7 +305,7 @@
           ],
           "position": {
             "x": -3.13626766204834,
-            "y": 4.4482831954956055,
+            "y": 14.937603950500488,
             "z": -1.8945510387420654
           },
           "orientation": {
@@ -906,91 +906,18 @@
           "visible": true,
           "layer": 0,
           "prefab": null
-        },
-        {
-          "id": "25",
-          "name": "model",
-          "children": [],
-          "components": [
-            {
-              "type": "ModelRenderer",
-              "config": {
-                "modelAssetId": "47",
-                "animationId": null,
-                "castShadow": false,
-                "receiveShadow": false,
-                "color": "ffffff",
-                "overrideOpacity": false,
-                "opacity": null,
-                "materialType": "shader",
-                "shaderAssetId": "48"
-              },
-              "id": "0"
-            }
-          ],
-          "position": {
-            "x": -4.99752140045166,
-            "y": -2.3270647525787354,
-            "z": 6.1603522300720215
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
-        },
-        {
-          "id": "26",
-          "name": "model",
-          "children": [],
-          "components": [
-            {
-              "type": "ModelRenderer",
-              "config": {
-                "modelAssetId": "47",
-                "animationId": null,
-                "castShadow": false,
-                "receiveShadow": false,
-                "color": "ffffff",
-                "overrideOpacity": false,
-                "opacity": null,
-                "materialType": "shader",
-                "shaderAssetId": "49"
-              },
-              "id": "0"
-            }
-          ],
-          "position": {
-            "x": -4.99752140045166,
-            "y": -2.3270647525787354,
-            "z": 5.1161956787109375
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
         }
       ],
-      "components": [],
+      "components": [
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "GameKeyBoardBehavior",
+            "propertyValues": {}
+          },
+          "id": "0"
+        }
+      ],
       "position": {
         "x": 0,
         "y": 0,

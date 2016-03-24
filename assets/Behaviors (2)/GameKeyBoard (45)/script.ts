@@ -24,6 +24,10 @@ class GameKeyBoardBehavior extends Sup.Behavior {
         x = (x + 1) / 2 * Sup.Input.getScreenSize().x;
         y = (1 - (y + 1) / 2) * Sup.Input.getScreenSize().y;
         
+        if( (Sup.Input.wasKeyJustReleased("SEMICOLON") == true)) {
+            Sup.log('Test');
+        }
+        
         if( (Sup.Input.wasKeyJustReleased("I") == true)) {
             RPGee.emit('itemtoggle');
             //this.steppress += 1;

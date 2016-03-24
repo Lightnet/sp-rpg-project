@@ -14,8 +14,9 @@ class PlayerBehavior extends Sup.Behavior {
   modelPosition = new Sup.Math.Vector3(0, 0, 0);
 
   shadowActor: Sup.Actor;
-  initialShadowScale: Sup.Math.Vector3;
-  shadowScale: Sup.Math.Vector3;
+  initialShadowScale: Sup.Math.Vector3 = new Sup.Math.Vector3(1, 1, 1);
+  shadowScale: Sup.Math.Vector3 = new Sup.Math.Vector3(1, 1, 1);
+  shadowoffset = new Sup.Math.Vector3(0, -2, 0);
 
   awake() {
     Game.playerBehavior = this;
@@ -49,15 +50,23 @@ class PlayerBehavior extends Sup.Behavior {
   goUp()    { return Sup.Input.isKeyDown("UP"); Sup.log('UP');}
   goDown()  { return Sup.Input.isKeyDown("DOWN"); Sup.log('LEDOWNFT');}
   jump()    { return Sup.Input.wasKeyJustPressed("SPACE"); Sup.log('SPACE');}
+    
   
   update() {
     //Sup.log('update?');
     this.position.set(this.actor.cannonBody.body.position.x, this.actor.cannonBody.body.position.y - this.height / 2, this.actor.cannonBody.body.position.z);
-    
-    this.shadowScale.x = this.initialShadowScale.x / (1 + (this.actor.cannonBody.body.position.y - this.height / 2) / 4);
-    this.shadowScale.y = this.initialShadowScale.y / (1 + (this.actor.cannonBody.body.position.y - this.height / 2) / 4);
+    var scale = Sup.Math.clamp(this.initialShadowScale.y / (1 + (this.actor.cannonBody.body.position.y - this.height / 2) / 8),-7, 2);
+    this.shadowScale.x = scale;
+    this.shadowScale.y = scale;
+    //this.shadowScale.x = this.initialShadowScale.x / ( (this.actor.cannonBody.body.position.y - this.height / 2) / 1);
+    //this.shadowScale.y = this.initialShadowScale.y / ( (this.actor.cannonBody.body.position.y - this.height / 2) / 1);
+      
+    //Sup.log(this.initialShadowScale.y / (1 + (this.actor.cannonBody.body.position.y - this.height / 2) / 8))
+    //Sup.log(scale);
+      
     this.shadowActor.setLocalScale(this.shadowScale);
-    this.shadowActor.setPosition(new Sup.Math.Vector3(this.actor.cannonBody.body.position.x, 0.1, this.actor.cannonBody.body.position.z));
+      //0.1
+    this.shadowActor.setPosition(new Sup.Math.Vector3(this.actor.cannonBody.body.position.x, this.shadowoffset.y, this.actor.cannonBody.body.position.z +this.shadowoffset.z));
     
     this.actor.setLocalEulerAngles(this.angles);
     if (!this.canMove) { return; }
@@ -79,7 +88,7 @@ class PlayerBehavior extends Sup.Behavior {
       this.actor.cannonBody.body.velocity.z = 0;
     }
 
-    let animation = "Idle";
+    let animation = "idle";
     if ((this.actor.cannonBody.body.velocity.x !== 0 || this.actor.cannonBody.body.velocity.z !== 0)) {
       animation = "walk";
       let angle = Math.atan2(-this.actor.cannonBody.body.velocity.z, this.actor.cannonBody.body.velocity.x) + Math.PI / 2;
@@ -91,9 +100,10 @@ class PlayerBehavior extends Sup.Behavior {
       this.canJump = false;
       this.actor.cannonBody.body.velocity.y = 30;
       animation = "jump";
-      Sup.Audio.playSound("Sounds/Jump");
+      //Sup.Audio.playSound("Sounds/Jump");
     }
     
+    //this.modelRndr.setAnimation(animation);
     this.modelRndr.setAnimation(animation);
   }
 

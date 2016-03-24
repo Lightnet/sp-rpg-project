@@ -2001,7 +2001,7 @@
                 "y": 2,
                 "z": 1
               },
-              "visible": true,
+              "visible": false,
               "layer": 1,
               "prefab": null
             },

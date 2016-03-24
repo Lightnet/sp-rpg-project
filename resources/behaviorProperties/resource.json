@@ -58,6 +58,10 @@
         {
           "name": "shadowScale",
           "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "shadowoffset",
+          "type": "Sup.Math.Vector3"
         }
       ]
     },
