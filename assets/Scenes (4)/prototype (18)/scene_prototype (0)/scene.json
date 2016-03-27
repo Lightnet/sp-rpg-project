@@ -31,8 +31,8 @@
           ],
           "position": {
             "x": -3.5344696044921875,
-            "y": 9.77547836303711,
-            "z": 18.44716453552246
+            "y": 6.549748420715332,
+            "z": 11.867809295654297
           },
           "orientation": {
             "x": -0.38268342717215614,
@@ -105,7 +105,7 @@
                   "type": "ModelRenderer",
                   "config": {
                     "modelAssetId": "51",
-                    "animationId": null,
+                    "animationId": "1",
                     "castShadow": false,
                     "receiveShadow": false,
                     "color": "ff0000",
@@ -890,6 +890,55 @@
           "position": {
             "x": -3.5344696044921875,
             "y": -3.513917922973633,
+            "z": -1.4240211248397827
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "26",
+          "name": "Floor Collision",
+          "children": [],
+          "components": [
+            {
+              "type": "ModelRenderer",
+              "config": {
+                "modelAssetId": "51",
+                "animationId": "1",
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ff8000",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "2"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "Script_collisionBehavior",
+                "propertyValues": {}
+              },
+              "id": "3"
+            }
+          ],
+          "position": {
+            "x": -0.5653941631317139,
+            "y": -2.9836320877075195,
             "z": -1.4240211248397827
           },
           "orientation": {

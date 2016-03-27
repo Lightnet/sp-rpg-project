@@ -195,6 +195,21 @@
           "type": "boolean"
         }
       ]
+    },
+    "Script_collisionBehavior": {
+      "scriptId": "52",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "index",
+          "type": "number"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        }
+      ]
     }
   }
 }

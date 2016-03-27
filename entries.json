@@ -53,6 +53,11 @@
         "id": "45",
         "name": "GameKeyBoard",
         "type": "script"
+      },
+      {
+        "id": "52",
+        "name": "Script_collision",
+        "type": "script"
       }
     ]
   },

@@ -107,8 +107,8 @@
       }
     }
   ],
-  "textureWidth": 256,
-  "textureHeight": 256,
+  "textureWidth": 64,
+  "textureHeight": 64,
   "maps": [
     "map"
   ],
